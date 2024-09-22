@@ -1,0 +1,111 @@
+/* Basic body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Center the title */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Container for posts */
+.posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Card styling */
+.card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+/* Card hover effect */
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Username styling */
+.card h3 {
+    color: #0077cc;
+    margin-bottom: 10px;
+}
+
+/* Post content styling */
+.card p {
+    color: #444;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Card footer styling */
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Button styling */
+.btn {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #005fa3;
+    transform: scale(1.05);
+}
+
+/* Create new post link */
+.create-post-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.create-btn {
+    background-color: #28a745;
+}
+
+.create-btn:hover {
+    background-color: #218838;
+}
+
+/* Delete button styling */
+.delete-btn {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}
+
+/* Delete form */
+.delete-form {
+    margin-top: 10px;
+    text-align: center;
+}

@@ -1,0 +1,60 @@
+/* Basic body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ece9e6 0%, #ffffff 100%);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container for the post */
+.post-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Post card styling */
+.post-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Card hover effect */
+.post-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Username styling */
+.post-card h3 {
+    color: #0077cc;
+    margin-bottom: 10px;
+}
+
+/* Post content styling */
+.post-card h4 {
+    color: #444;
+    font-size: 1.2rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .post-container {
+        padding: 15px;
+    }
+
+    .post-card h4 {
+        font-size: 1rem;
+    }
+}
