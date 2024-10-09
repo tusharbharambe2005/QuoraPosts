@@ -3,7 +3,8 @@
 
 
 @description :->
-    This project is a simple Quora-like application built with Node.js and Express. Users can view, create, edit, and delete posts. The project uses in-memory data storage to manage posts and EJS as the templating engine for rendering views. It mimics basic CRUD operations seen in typical question-answer platforms like Quora.
+    This project is a simple Quora-like application built with Node.js and Express. Users can view, create, edit, and delete posts. 
+    The project uses in-memory data storage to manage posts and EJS as the templating engine for rendering views. It mimics basic CRUD operations seen in typical question-answer platforms like Quora.
 @Installation:->
 1.Clone the repository
     git clone <repository-url>
