@@ -1,13 +1,21 @@
 Quora Posts 📝
+
 A simple Quora-like application built with Node.js and Express. This project demonstrates basic CRUD operations, allowing users to create, view, edit, and delete posts. With an in-memory data storage system, it provides a straightforward experience for learning and practicing web development fundamentals.
 
 📋 Description
+
 This application is a basic question-answer platform where users can:
+
 View all posts
+
 Create new posts
+
 View individual posts
+
 Edit existing posts
+
 Delete posts
+
 The project is built with Node.js and Express and uses EJS for rendering views.
 
 🚀 Installation
